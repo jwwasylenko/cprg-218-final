@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Signika:wght@300..700&display=swap');
 * {
     box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Baumans', serif;
+}
+
+h1 {
+    font-size:68px;
+    font-family: 'Baumans', serif;
+    text-shadow:-4px,-10px,8px, #b13a1a;
+}
+
+h2 {
+    font-family: 'Baumans', serif;
+}
+
+h3 {
+    font-family: 'Baumans', serif;
+    color:#000000;
+}
+
+
+p {
+    font-family: 'Signika', serif;
 }
 
 #container {
@@ -15,5 +40,99 @@
 
 header {
     grid-area: header;
-    background-color: 
+    background-color: #287e9e;
+    color: #e4a834;
+    text-align: center;
 }
+
+header nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav li a {
+    color: #e4a834;
+    text-decoration: none;
+}
+
+
+#banner {
+    width: 1200px;
+    height: 800px;
+    box-shadow: 20px 10px 40px 10px #b13a1a;
+}
+
+
+button {
+    border-radius: 25px 25px 25px 25px;
+    background-color:#474f58;
+    color: #f4e7da;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: #e4a834;
+    text-align: center;
+}
+
+
+#mindfulicity {
+    background-color: #b13a1a;
+    color: #ffffff;
+}
+
+#accessiblerennovationsforkids {
+    background-color: #b13a1a;
+    color: #ffffff;
+}
+
+
+#heuristicshero {
+    background-color: #b13a1a;
+    color: #ffffff;
+}
+
+#marketingmaven {
+    background-color: #b13a1a;
+    color: #ffffff;
+}
+
+#neuraurablogpost {
+    background-color: #b13a1a;
+    color: #ffffff;
+}
+
+
+
+
+main {
+    grid-area: main;
+    margin: 1rem;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #287e9e;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 3200px) {
+    body {
+        background-color: #ffffff;
+    }
+    img{
+        float:none;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    body{
+        image: 75%;
+        background-color:#000000;
+        color:#ffffff;
+    }
+}
+  
